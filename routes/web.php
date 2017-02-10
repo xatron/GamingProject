@@ -18,3 +18,20 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+// Custom profile
+Route::get('/p/{name}', 'ProfileController@index');
+
+
+
+// Auth
+Route::group(['prefix' => 'auth'], function () {
+    Route::get('steam', 'Auth\SteamAuthController@login')->name('auth.steam');
+});
+
+// Admin
+Route::group(['prefix' => 'admin'], function () {
+    Route::get('connections', function() {
+        return view('admin.connections');
+    })->name('connections');
+});
