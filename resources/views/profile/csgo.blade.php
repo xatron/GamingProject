@@ -5,13 +5,20 @@
 
 <h1> Counter-Strike: Global Offensive </h1> </br>
 <img src="/images/logos/csgo_header.jpg" alt="..."></br></br></br>
-
-<div class="row">
-  <div class="col-md-4">
-  <div class="col-md-12">
+<p class="border">
+<div class="container-float"> {{--  --}}
 
 
-  <p class="border">
+<div class="row"> {{-- Börjar Row för Stats --}}
+
+  <div class="col-sm-5 offset-col-sm-3"> {{-- Sätter Stats till 6 col --}}
+  {{-- <p class="border"> {{--  Border runt allt --}}
+
+
+
+
+{{--     <div class="row"> {{-- Börjar Row för General Stats --}}
+      <div class="col-sm-12"> {{-- Sätter col för General stats till 6 --}}
     <div class="panel-group">
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -30,10 +37,12 @@
       </div>
     </div>
   </div>
+</div>
 
 
 
-<div class="col-md-12">
+
+<div class="col-sm-12">
   <div class="panel-group">
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -52,6 +61,7 @@
     </div>
   </div>
   </div>
+
 
 
 <div class="col-md-12">
@@ -107,10 +117,45 @@
       </div>
     </div>
   </div>
-  </div>
-  </div>
-  </div>
+</div>
 
+
+
+</div>
+<div class="row">
+  <div class"col-md-12 ">
+
+
+<div class="dropdown">
+
+  <button class="btn btn-default dropdown-toggle" type="button" id="sortby" data-toggle="dropdown">
+    Sort by
+    <span class="caret"></span>
+
+  </button>
+  <ul class="dropdown-menu" aria-labelled-by="sortby">
+    <li><a href="#">Most valuable skin</li>
+  <li><a href="#">Recent</li>
+    <li><a href="#">Old</li>
+
+  </ul>
+
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+</div>
+</p>
 
 
 
