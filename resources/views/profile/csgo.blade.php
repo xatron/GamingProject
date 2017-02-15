@@ -4,40 +4,38 @@
 
 
 <h1> Counter-Strike: Global Offensive </h1> </br>
-<img src="/images/logos/csgo_header.jpg" alt="..."></br></br></br>
 <p class="border">
 <div class="container-float"> {{--  --}}
 
 
 <div class="row"> {{-- Börjar Row för Stats --}}
 
-  <div class="col-sm-5 offset-col-sm-3"> {{-- Sätter Stats till 6 col --}}
+  <div class="col-sm-5 offset-col-sm-0"> {{-- Sätter Stats till 6 col --}}
   {{-- <p class="border"> {{--  Border runt allt --}}
 
 
 
 
 {{--     <div class="row"> {{-- Börjar Row för General Stats --}}
-      <div class="col-sm-12"> {{-- Sätter col för General stats till 6 --}}
-    <div class="panel-group">
+<div class="col-sm-12">
+  <div class="panel-group">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" href="#collapse1"><b>General Stats</b></a>
         </h4>
       </div>
-    </p>
       <div id="collapse1" class="panel-collapse collapse">
         <ul class="list-group">
-          <li class="list-group-item">Steam Username: Ninsew</li>
-          <li class="list-group-item">Steam Rank: 82</li>
-          <li class="list-group-item">CS:GO Rank: Global Elite</li>
+          <li class="list-group-item">Username: Ninsew</li>
+          <li class="list-group-item">Rank: Global Elite</li>
+          <li class="list-group-item">Total inventory Value: $283</li>
         </ul>
         <div class="panel-footer"></div>
       </div>
     </div>
   </div>
-</div>
+  </div>
 
 
 
@@ -141,7 +139,98 @@
   </ul>
 
 </div>
+</br>
+<div class="row">
+  <div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/awpasiimov.png" alt="..." style="min-height:150px;height:150px;" >
+      <p align="center">AWP Asiimov</br>Factory New</p>
+    </a>
+  </div>
+  <div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/akredline.png" alt="..." style="min-height:150px;height:150px;"  >
+    <p align="center">AK-47 Redline</br>Factory New</p>
+    </a>
+  </div>
+  <div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/akredline.png" alt="..." style="min-height:150px;height:150px;"  >
+      <p align="center">AK-47 Redline</br>Factory New</p>
+    </a>
+  </div>
+  <div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/awpasiimov.png" alt="..." style="min-height:150px;height:150px;"  >
+      <p align="center">AWP Asiimov</br>Field Tested</p>
+    </a>
+  </div><div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/awpasiimov.png" alt="..." style="min-height:150px;height:150px;"  >
+    <p align="center">AWP Asiimov</br>Battle Scared</p>
+    </a>
+  </div>
 
+  <div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/awpasiimov.png" alt="..." style="min-height:150px;height:150px;" >
+      <p align="center">AWP Asiimov</br>Factory New</p>
+    </a>
+  </div>
+  <div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/akredline.png" alt="..." style="min-height:150px;height:150px;"  >
+    <p align="center">AK-47 Redline</br>Factory New</p>
+    </a>
+  </div>
+  <div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/akredline.png" alt="..." style="min-height:150px;height:150px;"  >
+      <p align="center">AK-47 Redline</br>Factory New</p>
+    </a>
+  </div>
+  <div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/awpasiimov.png" alt="..." style="min-height:150px;height:150px;"  >
+      <p align="center">AWP Asiimov</br>Field Tested</p>
+    </a>
+  </div><div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/awpasiimov.png" alt="..." style="min-height:150px;height:150px;"  >
+    <p align="center">AWP Asiimov</br>Battle Scared</p>
+    </a>
+  </div>
+
+  <div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/awpasiimov.png" alt="..." style="min-height:150px;height:150px;" >
+      <p align="center">AWP Asiimov</br>Factory New</p>
+    </a>
+  </div>
+  <div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/akredline.png" alt="..." style="min-height:150px;height:150px;"  >
+    <p align="center">AK-47 Redline</br>Factory New</p>
+    </a>
+  </div>
+  <div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/akredline.png" alt="..." style="min-height:150px;height:150px;"  >
+      <p align="center">AK-47 Redline</br>Factory New</p>
+    </a>
+  </div>
+  <div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/awpasiimov.png" alt="..." style="min-height:150px;height:150px;"  >
+      <p align="center">AWP Asiimov</br>Field Tested</p>
+    </a>
+  </div><div class="col-xs-2 col-md-2">
+    <a href="#" class="thumbnail">
+      <img src="/images/csgoskins/awpasiimov.png" alt="..." style="min-height:150px;height:150px;"  >
+    <p align="center">AWP Asiimov</br>Battle Scared</p>
+    </a>
+  </div>
+</div>
 
 
 
