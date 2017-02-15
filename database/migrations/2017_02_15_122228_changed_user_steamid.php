@@ -13,9 +13,12 @@ class ChangedUserSteamid extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('steamid');
-        });
+        if(Schema::hasColumn('users', 'steamid')) ; //check whether users table has email column
+        {
+            Schema::table('users', function (Blueprint $table) {
+                $table->dropColumn('steamid');
+            });
+        }
     }
 
     /**
