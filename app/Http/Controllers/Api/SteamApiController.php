@@ -15,6 +15,11 @@ class SteamApiController extends Controller
         $this->apikey = '11BD53EA7DC172752F839A040A7219CE';
     }
 
+    /**
+     * Returns profile information.
+     *
+     * @param $steamID
+     */
     public function getProfileInfo($steamID)
     {
         if($steamID == 0 || $steamID == NULL) {
@@ -25,5 +30,17 @@ class SteamApiController extends Controller
 
         $result = $json['response']['players'];
         return $result[0];
+    }
+
+    public function getGameInfo($appID = NULL, $steamID)
+    {
+        if($steamID == 0 || $steamID == NULL || $appID == NULL) {
+            return false;
+        }
+
+        $data = file_get_contents('http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid='. $appID .'&key='. $this->apikey .'&steamid=' . $steamID);
+        $json = \GuzzleHttp\json_decode($data, true);
+
+        return $json;
     }
 }
