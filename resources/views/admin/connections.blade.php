@@ -1,6 +1,7 @@
 @extends('layouts.admin.header')
 
 @section('content')
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -18,6 +19,7 @@
                                             <p><a href="{{ route('auth.steam') }}" class="btn btn-success" style="width: 100%;" role="button">Connect to steam</a></p>
                                         @else
                                             <p><a href="#" class="btn btn-success disabled" style="width: 100%;" role="button">You are already connected</a></p>
+                                            <p class="text-center"><img src="{{ $steam_profile['avatar'] }}" class="img-circle"> {{ $steam_profile['personaname'] }}</p>
                                         @endif
                                     </div>
                                 </div>
