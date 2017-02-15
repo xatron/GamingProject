@@ -36,3 +36,7 @@ Route::group(['prefix' => 'admin'], function () {
 
     Route::get('/home', 'Admin\HomeController@index')->name('home');
 });
+
+Route::get('/csgotest', function () {
+    return view('profile.csgo');
+});
