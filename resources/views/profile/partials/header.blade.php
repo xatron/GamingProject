@@ -22,7 +22,7 @@
 
     body {
 
-      background: #d9d9db !important;
+      background: #1C2127!important;
     }
     .row{
     overflow: hidden;
@@ -47,10 +47,11 @@
 }
 
 
+.navbar-inverse { background-color: #333333}
+
 </style>
 </head>
 
-<body bgcolor="#E6E6FA">
 
 
   <nav class="navbar navbar-inverse">
