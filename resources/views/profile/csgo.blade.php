@@ -11,7 +11,7 @@
         <div>Rank: Global Elite</div>
         <div>Total inventory value: $474</div>
         <div>Favorite Weapon: AK-47</div></br>
-        <p><a href="#" class="btn btn-primary" role="button">Go to CS:GO</a> <a href="#" class="btn btn-default" role="button">Edit...</a></p>
+        <p><a href="#" class="btn btn-primary" role="button">Add as Friend</a> <a href="#" class="btn btn-default" role="button">Go to User</a></p>
       </div>
     </div>
   </div>
