@@ -19,8 +19,16 @@
         ]) !!};
     </script>
     <style>
+
+    body {
+
+      background: #d9d9db !important;
+    }
     .row{
     overflow: hidden;
+}
+.panel-group {
+     margin-bottom: 0px;
 }
 
 .panel {
@@ -31,13 +39,21 @@
   border-radius: 10px;
 }
 
+.panel-bottom-margin{
+
+  margin-bottom: 10px;
+
+
+}
+
+
 </style>
 </head>
 
-<body>
+<body bgcolor="#E6E6FA">
 
 
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
